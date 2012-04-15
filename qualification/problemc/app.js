@@ -22,8 +22,7 @@ for (var x = 1; x <= T; x++) {
     for (var i = A; i <= B; i++) {
         var astr = ''+i, temp = i;
         var alen = astr.length;
-
-        //var problem = [];
+        
         for (var j = 0; j < (alen - 1); j++) {
             // shifting the number
             var mod = temp % 10;
